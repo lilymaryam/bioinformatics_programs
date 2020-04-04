@@ -1,2 +1,2 @@
 # learning_python
-Repository for MCB 185 @ UC Davis
+Lily Karim's repository for MCB 185 @ UC Davis
