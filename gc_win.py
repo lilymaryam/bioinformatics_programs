@@ -9,14 +9,14 @@ seq = 'ACGACGCAGGAGGAGAGTTTCAGAGATCACGAATACATCCATATTACCCAGAGAGAG'
 w = 11
 
 
-for nt in range (0, len(seq)-(w-1):
+for nt in range (0, len(seq)-(w-1)):
 	win = seq[nt:nt+w]
 	gc = 0
 	for i in win:
 		if i == "G" or i == "C":
 			gc += 1
 		gcf = gc/w 
-	print(f'{nt}{seq[nt:nt+w]}{gcf:.4f}')
+	print(f'{nt} {seq[nt:nt+w]} {gcf:.4f}')
 
 """
 0 ACGACGCAGGA 0.6364
