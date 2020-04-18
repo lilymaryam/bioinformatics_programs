@@ -9,7 +9,7 @@ seq = 'ACGACGCAGGAGGAGAGTTTCAGAGATCACGAATACATCCATATTACCCAGAGAGAG'
 w = 11
 
 
-for nt in range (0, len(seq)-10):
+for nt in range (0, len(seq)-(w-1):
 	win = seq[nt:nt+w]
 	gc = 0
 	for i in win:
