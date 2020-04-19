@@ -29,13 +29,14 @@ window along the sequence and adding and/or subtracting the Gs and Cs from the e
 fraction as they enter and leave the window. Separate loops are much faster for long 
 windows.
 
-The cons of using the separate loops algorithm is that it takes longer to reprogram the 
-code if the windows are more than 1 base pair apart. In the nested loop algorithm, the 
-range in the outer loop can be changed to index a different window from the sequence. 
-In the separate loop algorithm, the prev and next variables have to become sequences
-and the GC content of these variables has to be counted and deleted from the existing 
-fraction to get the right answer. This takes longer to re-program than the nested loop 
-algorithm.  
+The cons of using the separate loops algorithm is that it does not assess each window 
+separately and depends on the surrounding sequence to determine GC content. 
+If the windows are separated by more than 1 base pair, the algorithm must be reprogrammed.  
+The prev and next variables have to become sequences instead of single nucleotides and the
+GC content of these prev and next variables has to be calculated and deleted from the 
+existing fraction to get the right answer. This takes longer to re-program than the 
+nested loop algorithm. In the nested loop algorithm, the range in the outer loop can be 
+easily changed to index a different window from the sequence. 
 """
 	
 	
