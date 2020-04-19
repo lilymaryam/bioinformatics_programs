@@ -15,7 +15,7 @@ for nt in range (0, len(seq)-(w-1)):
 	for i in win:
 		if i == "G" or i == "C":
 			gc += 1
-		gcf = gc/w 
+	gcf = gc/w 
 	print(f'{nt} {seq[nt:nt+w]} {gcf:.4f}')
 
 """
