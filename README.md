@@ -1,4 +1,4 @@
-#**Learning Python**
+#- **Learning Python**
 ##Lily Karim's repository for MCB 185 @ UC Davis
 ###HW1: writing .py files and pushing to Git Repo
 	- hello_world.py
@@ -18,16 +18,16 @@
 	- seqstats.py
 	- stats.py
 #HW5: review through previous lessons. redoing old code to practice syntax and pattern recognition
-#	- at_seq.py
-#	- birthday.py
-#	- codons.py
-#	- entropy.py
-#	- fizzbuzz.py
-#	- gc_win.py
-#	- nucleotides.txt
-#	- pepsearch.py
-#	- proteins.fasta.gz
-#	- rand_fasta.py
-#	- rand_seq.py
-#	- xcoverage.py
+	- at_seq.py
+	- birthday.py
+	- codons.py
+	- entropy.py
+	- fizzbuzz.py
+	- gc_win.py
+	- nucleotides.txt
+	- pepsearch.py
+	- proteins.fasta.gz
+	- rand_fasta.py
+	- rand_seq.py
+	- xcoverage.py
  
