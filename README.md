@@ -1,4 +1,4 @@
- **Learning Python**
+ **Bioinformatics with Python**
 =======================
 
 Lily Karim's repository for Bioinformatics Programming @ UC Davis
